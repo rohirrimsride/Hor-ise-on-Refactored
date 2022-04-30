@@ -32,22 +32,25 @@
 
     <!-- changed div tag to section tag for better flow and semantics -->
     <section class="content">
-        <!-- changing class attribute to id attribute for related nav link to work / added the s-e-o class attribute to the div so the related css styling would work -->
-        <div id="search-engine-optimization" class="search-engine-optimization">
+        <!-- changing class attribute to id attribute for related nav link to work and used the section class="content" attribute
+        for css styling purposes to apply to all three div cards to simplify both the html and css code -->
+        <div id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <!-- removed class="online-reputation-management" from the div as extraneous code using section class content attribute to apply css styling -->
+        <div id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <!-- removed class="social-media-marketing" from the div as extraneous code using section class content attribute to apply css styling -->
+        <div id="social-media-marketing" >
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -55,9 +58,9 @@
             </p>
         </div>
     </section>
-    <!-- changed div tag to aside tag for better semantics and to better reflect the contents purpose -->
+    <!-- changed div tag to aside tag for better semantics and to better reflect the contents purpose and positioning -->
     <aside class="benefits">
-        <!-- removed class attribute as the functionality was moved to the class benefits in the aside tag -->
+        <!-- removed class attribute as the functionality was moved to the class benefits in the aside tag to simplify the code -->
         <div>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -65,7 +68,7 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <!-- removed class attribute as the functionality was moved to the class benefits in the aside tag -->
+        <!-- removed class attribute as the functionality was moved to the class benefits in the aside tag to simplify the code -->
         <div>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
@@ -73,7 +76,7 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <!-- removed class attribute as the functionality was moved to the class benefits in the aside tag -->
+        <!-- removed class attribute as the functionality was moved to the class benefits in the aside tag to simplify the code -->
         <div>
             <h3>Cost Management</h3>
             <!-- removed closing img tag and added closing slash inside the tag-->

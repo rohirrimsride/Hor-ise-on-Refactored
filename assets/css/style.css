@@ -89,7 +89,7 @@ p {
     background-color: #2589bd;
 }
 
-/* matching html changes for this declaration to reduce repetitive code */
+/* matching new html changes for this declaration to reduce repetitive code */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
@@ -109,7 +109,7 @@ p {
 }
 
 /* nested o-r-m and s-m-m classes in the same declaration to reduce repetitive code */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -119,12 +119,12 @@ p {
 }
 
 /* nested o-r-m img & s-m-m img in same declaration to reduce repetitive code */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.content div img {
     max-height: 200px;
 }
 
 /* nested o-r-m h2 & s-m-m h2 in the same declaration to reduce repetitive code */
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.content div h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
