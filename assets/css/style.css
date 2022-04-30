@@ -89,20 +89,20 @@ p {
     background-color: #2589bd;
 }
 
-/* nested all three benefit classes in the same declaration to reduce repetitive code */
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* matching html changes for this declaration to reduce repetitive code */
+.benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* nested all three benefit classes in the same declaration to reduce repetitive code */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefits div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* nested all three benefit classes in the same declaration to reduce repetitive code */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefits div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
