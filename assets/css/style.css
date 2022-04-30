@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/* added nav nested selector to match the change in html */
+/* replaced div with nav nested selector to match the change in html */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,11 +32,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* added nav nested selector to match the change in html */
+/* replaced div with nav nested selector to match the change in html */
 .header nav ul {
     list-style-type: none;
 }
-/* added nav nested selector to match the change in html */
+/* replaced div with nav nested selector to match the change in html */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -87,11 +87,12 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* nested all three benefit classes in the same declaration to reduce repetitive code */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,12 +102,13 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-lead h3 {
+*/
+/* nested all three benefit classes in the same declaration to reduce repetitive code */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,13 +118,14 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-lead img {
+*/
+/* nested all three benefit classes in the same declaration to reduce repetitive code */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -134,7 +137,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
