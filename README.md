@@ -1,7 +1,7 @@
 # Hor-ise-on-Refactored
 
 ## Description/Purpose
-The purpose of this project is to supply Horiseon with a client facing website that is functional and attractive.
+The purpose of this project is to provide Horiseon with a client facing website that is functional and attractive.
 This website will incorporate semantic HTML to maximize SEO and optimize the HTML elements for accessbility purposes.
 The code will be streamlined to reduce repetition while maintaining functionality and increase readability.
 
