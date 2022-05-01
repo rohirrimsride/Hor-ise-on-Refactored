@@ -21,6 +21,13 @@ Main directory
             online-reputation-management.jpg
             search-engine-optimization.jpg
             social-media-marketing.jpg
+            
+## Screenshot of webpage
+![image](https://user-images.githubusercontent.com/96882225/166161741-c6c4b0f5-67b8-4e01-a2a4-07bf34a903ee.png)
+
+
+## Live site link
+https://rohirrimsride.github.io/Hor-ise-on-Refactored/#social-media-marketing
 
 ## Credits
 Original code supplied by Horiseon.
