@@ -27,7 +27,7 @@ Main directory
 
 
 ## Live site link
-https://rohirrimsride.github.io/Hor-ise-on-Refactored/#social-media-marketing
+https://rohirrimsride.github.io/Hor-ise-on-Refactored/
 
 ## Credits
 Original code supplied by Horiseon.
